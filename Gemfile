@@ -58,3 +58,4 @@ gem "httparty"
 gem "sidekiq-cron"
 gem "whenever", require: false
 gem "connection_pool", "~> 2.5"
+gem "figaro"

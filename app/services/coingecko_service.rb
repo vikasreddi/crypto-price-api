@@ -11,7 +11,7 @@ class CoingeckoService
         vs_currencies: "usd"
       },
       headers: {
-        "x-cg-demo-api-key" => ENV.fetch("COINGECKO_API_KEY", "CG-u5ZvsvVpyous4vka8YZcQcAr")
+        "x-cg-demo-api-key" => ENV.fetch("COINGECKO_API_KEY")
       }
     )
 
